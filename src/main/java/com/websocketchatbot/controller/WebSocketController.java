@@ -8,6 +8,6 @@ public class WebSocketController {
 
     @GetMapping("/ws")
     public String getWebSocketEndpoint() {
-        return "WebSocket endpoint is running. Connect to /chat";
+        return "WebSocket endpoint is running. Now Connect to /chat";
     }
 }
